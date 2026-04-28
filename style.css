@@ -296,7 +296,7 @@ header {
     display: flex;
     align-items: center;
     border-radius: 50%;
-    transition: .5s;
+    transition: .2s;
 }
 
 .social-icons-container:hover {
@@ -317,6 +317,11 @@ header {
     max-width: 40rem;
     width: 100%;
     object-fit: cover;
+    transition: .2s;
+}
+
+.hero-img:hover {
+    transform: scale(1.1,1.1);
 }
 
 /* ---------- FOOTER SECTION ------------ */
